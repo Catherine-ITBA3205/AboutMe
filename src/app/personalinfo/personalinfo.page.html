@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="bg color">
+  <ion-item>
+    <ion-buttons slot="start">
+      <ion-back-button text="" icon="home" defaultHref="home" color="dark"></ion-back-button>
+    </ion-buttons>
+    <ion-toggle slot="end" (ionChange)='toggleTheme($event)'>
+    </ion-toggle>
+  </ion-item>
+<center>
+  <ion-icon class="person" name="person" color="dark"></ion-icon>
+    <span class="title">Personal <br> Information</span>
+</center>
+    <ion-card class="card">
+      <ion-card-content>
+        <span class="text"> 
+          <b>Name:</b> Catherine D. Beredo<br>
+          <b>Age:</b>21<br>
+          <b>Birthday:</b> February 06, 2001<br>
+          <b>Address:</b> San Juan, Batangas<br>
+          <b>Contact No.:</b> 09091982017<br>
+          <b>Email:</b> catherine.beredo@g.batstate-u.edu.ph<br>
+          <b>Nationality:</b> Filipino<br>
+        </span> 
+      </ion-card-content>
+    </ion-card>
+</ion-content>
