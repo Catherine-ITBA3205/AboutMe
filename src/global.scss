@@ -24,3 +24,39 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+@font-face {
+    font-family:ShadowsIntoLight;
+    src: url(/assets/fonts/ShadowsIntoLight-Regular.ttf);
+}
+@font-face {
+    font-family:SpaceGrotesk;
+    src: url(/assets/fonts/SpaceGrotesk.ttf);
+}
+@font-face {
+    font-family: PlayFairDisplay-VariableFont;
+    src: url(/assets/fonts/PlayFairDisplay-VariableFont.ttf);
+}
+@font-face {
+    font-family: PGraduate-Regular;
+    src: url(/assets/fonts/Graduate-Regular.ttf);
+}
+
+.ion-color-lightpink{
+    --ion-color-base: var(--ion-color-lightpink) !important;
+    --ion-color-base-rgb: var(--ion-color-lightpink-rgb) !important;
+    --ion-color-contrast: var(--ion-color-lightpink-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-lightpink-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-lightpink-shade) !important;
+    --ion-color-tint: var(--ion-color-lightpink-tint) !important;
+}
+
+.ion-color-lightcyan{
+    --ion-color-base: var(--ion-color-lightcyan) !important;
+    --ion-color-base-rgb: var(--ion-color-lightcyan-rgb) !important;
+    --ion-color-contrast: var(--ion-color-lightcyan-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-lightcyan-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-lightcyan-shade) !important;
+    --ion-color-tint: var(--ion-color-lightcyan-tint) !important;
+}

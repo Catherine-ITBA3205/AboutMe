@@ -15,6 +15,13 @@ export class PersonalinfoPage implements OnInit {
       document.body.setAttribute('color-theme','Light');
     }
   }
+  name= 'Catherine D. Beredo';
+  age= '21';
+  birthday= 'February 06, 2001';
+  address= 'San Juan, Batangas';
+  contact= '09091982017';
+  email= 'catherine.beredo@g.batstate-u.edu.ph';
+  nationality= 'Filipino';
   ngOnInit() {
   }
 

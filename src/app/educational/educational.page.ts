@@ -15,7 +15,15 @@ export class EducationalPage implements OnInit {
     }else{
       document.body.setAttribute('color-theme','Light');
     }
+
   }
+  junior= 'Junior High School';
+  senior= 'Senior High School';
+  college= 'College';
+  Hname= 'Joseph Marello Institute';
+  Hplace= 'San Juan, Batangas';
+  BSU= 'Batangas State University';
+  GCH= 'Golden Country Homes, Alangilan, Batangas City';
   ngOnInit() {
   }
 

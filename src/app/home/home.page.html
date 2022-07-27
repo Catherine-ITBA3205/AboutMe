@@ -1,20 +1,25 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-item>
+    <ion-toggle slot="end" (ionChange)='toggleTheme($event)'>
+    </ion-toggle>
+  </ion-item>
+  <br>
+  <center> <img class="displayed" height="200px" width="200px" src="assets/circle.png"> 
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <h1 class="title">About Me!</h1>
+
+    <ion-button class="click" (click)="personalInfo()" shape="round" fill="solid" size="default" 
+    color="lightpink">Personal Information</ion-button><br>
+    <ion-button class="click" (click)="educationalInfo()" shape="round" fill="solid" size="default" 
+    color="lightpink">Educational Information</ion-button>
+
+  </center>
+
 </ion-content>
